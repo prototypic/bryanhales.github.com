@@ -1,0 +1,107 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;}body{line-height:1;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}nav ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:none;}a{font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;}ins{background-color:#ff9;color:#000;text-decoration:none;}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:700;}del{text-decoration:line-through;}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help;}table{border-collapse:collapse;border-spacing:0;}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0;}input,select{vertical-align:middle;}
+
+html,body {
+    font:normal 14px Arial;
+    color:#333;
+}
+
+h1 {
+    font: bold 48px 'Kaushan Script', cursive;
+    text-shadow: 1px 1px 0px #eee, 2px 2px 0px #707070;
+}
+
+h1, h2 {
+    color:#333;
+    display: inline-block;
+}
+
+h2 {
+    display: block;
+    margin:10px 0 10px 0;
+}
+
+h3 {
+    font-size:24px;
+    margin:20px auto;
+    text-shadow: 1px 1px 0px #eee, 2px 2px 0px #707070;
+}
+
+a {
+    color:#069;
+    text-shadow:none;
+}
+
+p {
+    width:600px;
+    display:block;
+    text-align:left;
+    line-height:20px;
+    margin:0 auto 20px auto;
+}
+
+.avatar {
+    width: 48px;
+    height: 48px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    position:relative;
+    top:10px;
+}
+
+.center {
+    margin:0 auto;
+    display:block;
+    text-align:center;
+}
+
+.cols {
+    width:800px;
+    margin:20px auto 100px auto;
+    clear: both;
+    display: block:block;
+}
+
+.cols div {
+    width:140px;
+    margin:0 10px;
+    float:left;
+    text-align:left;
+}
+
+.contact a {
+    font-size:14px;
+}
+
+.contact img, h4 img {
+    margin-right:6px;
+    vertical-align:middle;
+}
+
+.favorites ul {
+    margin-top:10px;
+    display:block;
+}
+
+.favorites li {
+    margin-bottom:10px;
+    list-style-type:none;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+ 
+ 
+html[xmlns] .clearfix {
+    display: block;
+}
+ 
+* html .clearfix {
+    height: 1%;
+}
